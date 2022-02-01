@@ -23,6 +23,7 @@ public class TelegramBotTests extends TelegramLongPollingBot {
     TelegramBotTests bot = new TelegramBotTests();
     TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
     telegramBotsApi.registerBot(bot);
+    System.out.println("Бот запущен...");
   }
 
   @Override
